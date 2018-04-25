@@ -4,23 +4,16 @@ Munvo take home assessment
 ## Instructions
 The candidate will develop a simple CRUD application that allows users to reserve cars with a simple UI.
 
-In the application there should be three tables:
+In the application there should be three key objects
 - Users
 - Cars
 - Reservations
 
-User table should contain minimum of three columns:
-- User ID
-- First Name
-- Last Name
+For users we expect to track their name, and another basic details you think are necessary, keep it simple.
 
-Car table should contain minimum of two columns:
-- Car ID
-- Car model
+For cars we want to track all the make and model of cars "Automyble" owns. 
 
-Reservation should contain minimum of two columns:
-- Reservation ID
-- Date
+We would like our users(customers) to be able to reserve a car for a date and time for their use. Any additional information you think is necessary please add.
 
 The candidate will have to figure out how these tables are related, and add the necessary columns to the tables to represent that relation. The candidate is allowed to add more columns if they feel it is necessary.
 
